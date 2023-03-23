@@ -1,33 +1,13 @@
-html,
-body {
-  margin: 20px;
-  padding: 0;
-}
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  
 
-section {
-  margin-top: 100px;;
-}
-
-
-img {
-  max-width: 100%;
-}
-
-.category {
-  text-transform: uppercase;
-  font-size: 1.2rem;
-}
-
-
-.flex {
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-
-.flex img {
-  width: 200px;
+.grid{
+  display: grid;
+  gap: 20px;
 }
